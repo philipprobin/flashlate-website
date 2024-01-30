@@ -13,30 +13,30 @@ function App() {
       <div className="bg-customGreyBgColor min-h-screen p-2 md:p-20 text-customBlackFont font-myCustomFont">
         <div className="container mx-auto grid h-full w-full grid-cols-1 place-items-center lg:grid-cols-2 ">
           {/*Block 1*/}
-          <div className="col-span-1 m-4">
+          <div className="col-span-1 my-4">
             <HeaderDescription/>
           </div>
           <div>
-            <img src={home} alt="home" className="w-96 h-auto m-8"/>
+            <img src={home} alt="home" className="w-96 h-auto "/>
           </div>
           {/*Block 2*/}
           <div>
-            <img src={conjugation} alt="recipe" className="w-96 h-auto m-8"/>
+            <img src={conjugation} alt="recipe" className="w-96 h-auto "/>
           </div>
-          <div className="col-span-1 m-4">
+          <div className="col-span-1 my-4">
             <h1 className="block antialiased tracking-normal text-4xl sm:text-5xl leading-tight  ">
               <span className="text-customTeal">Conjugate</span> any verb in any language
             </h1>
           </div>
           {/*Block 3*/}
-          <div className="col-span-1 m-4">
+          <div className="col-span-1 my-4">
             <h1 className="block antialiased tracking-normal text-4xl sm:text-5xl leading-tight">
               <span className="text-customTeal">Practice</span> with our Community Decks
             </h1>
 
           </div>
           <div>
-            <img src={community} alt="search" className="w-96 h-auto m-8"/>
+            <img src={community} alt="search" className="w-96 h-auto "/>
           </div>
         </div>
 
