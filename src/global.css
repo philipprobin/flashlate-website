@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MyAvertaStdBold';
+    font-style: auto;
+    src: url('/src/assets/fonts/AvertaStd-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyAvertaStdRegular';
+    font-style: normal;
+    src: url('/src/assets/fonts/AvertaStd-Semibold.ttf') format('truetype');
+}
