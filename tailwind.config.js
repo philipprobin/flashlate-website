@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import svgLoader from "vite-svg-loader";
 
 export default {
 
@@ -20,5 +21,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [ svgLoader(),],
 }
