@@ -1,5 +1,6 @@
 import AppleAppStoreButton from "./apple-app-store-button";
 import GooglePlayStoreButton from "./google-play-store-button";
+import FBanner from '../assets/f_banner.svg';
 
 // racfe
 
@@ -10,7 +11,7 @@ const HeaderDescription = () => {
             <h1 className="antialiased tracking-normal leading-tight text-customBlackFont">
               <span className="flex items-end text-6xl sm:text-8xl"> {/* Adjust font size as needed */}
                   <img
-                      src='/src/assets/f_banner.svg'
+                      src={FBanner}
                       alt="F from Flashlate"
                       style={{height: '1.2em', marginRight: '0.1em'}} // Adjust height and margin as needed
                   />
