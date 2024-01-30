@@ -1,6 +1,6 @@
 import AppleAppStoreButton from "./apple-app-store-button";
 import GooglePlayStoreButton from "./google-play-store-button";
-import FBanner from '../assets/f_banner.svg';
+import FBanner from './component_assets/f_banner.svg';
 
 // racfe
 
